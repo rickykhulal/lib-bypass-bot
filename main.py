@@ -29,6 +29,7 @@ except ImportError:
 import config
 from storage import Storage, StorageError
 from views import TierSelectView, NoteModal, BulkKeysModal
+from keep_alive import keep_alive
 
 # --------------------------------------------------------------------------- #
 # Logging
@@ -512,6 +513,8 @@ def main():
     if not token:
         logger.error("DISCORD_TOKEN environment variable is not set. See .env.example.")
         sys.exit(1)
+    if os.getenv("RENDER") or os.getenv("KEEP_ALIVE") == "1":
+        keep_alive()
     bot.run(token)
 
 
