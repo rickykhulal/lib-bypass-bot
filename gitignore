@@ -1,0 +1,14 @@
+# Secrets — never commit these
+.env
+
+# Local database + backups — these regenerate at runtime; committing them
+# would also mean your key stock / user credits end up in your public or
+# private repo history, which you don't want.
+data/
+*.pyc
+__pycache__/
+
+# Editor/OS cruft
+.vscode/
+.idea/
+.DS_Store

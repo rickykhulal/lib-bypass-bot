@@ -1,0 +1,56 @@
+{
+  "users": {
+    "1190844956395446397": {
+      "credits": 0,
+      "added_by": 768020734231969793,
+      "added_at": "2026-09-05T13:36:02.212005+00:00",
+      "redemptions": [
+        {
+          "user_id": 1190844956395446397,
+          "tier": 1,
+          "key": "rtrertergsd",
+          "note": "",
+          "timestamp": "2026-09-05T13:36:37.742866+00:00"
+        }
+      ]
+    },
+    "1540011963940212876": {
+      "credits": 50,
+      "added_by": 768020734231969793,
+      "added_at": "2026-09-05T14:26:18.814580+00:00",
+      "redemptions": []
+    }
+  },
+  "keys": {
+    "1": [
+      "fgdfgfh",
+      "pui"
+    ],
+    "3": [],
+    "7": [],
+    "30": []
+  },
+  "used_keys": [
+    {
+      "user_id": 768020734231969793,
+      "tier": 1,
+      "key": "xxx",
+      "note": "rixxy",
+      "timestamp": "2026-09-05T13:32:45.205690+00:00"
+    },
+    {
+      "user_id": 1190844956395446397,
+      "tier": 1,
+      "key": "rtrertergsd",
+      "note": "",
+      "timestamp": "2026-09-05T13:36:37.742866+00:00"
+    }
+  ],
+  "allowed_channels": [],
+  "log_channel": null,
+  "meta": {
+    "created_at": "2026-09-05T13:28:16.331878+00:00",
+    "last_local_backup": "2026-09-05T14:24:01.617559+00:00",
+    "last_remote_backup": null
+  }
+}

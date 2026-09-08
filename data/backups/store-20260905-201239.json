@@ -1,0 +1,89 @@
+{
+  "users": {
+    "1190844956395446397": {
+      "credits": 0,
+      "added_by": 768020734231969793,
+      "added_at": "2026-09-05T13:36:02.212005+00:00",
+      "redemptions": [
+        {
+          "user_id": 1190844956395446397,
+          "tier": 1,
+          "key": "rtrertergsd",
+          "note": "",
+          "timestamp": "2026-09-05T13:36:37.742866+00:00"
+        }
+      ]
+    },
+    "1540011963940212876": {
+      "credits": 50,
+      "added_by": 768020734231969793,
+      "added_at": "2026-09-05T14:26:18.814580+00:00",
+      "redemptions": []
+    }
+  },
+  "keys": {
+    "1": [
+      "fgdfgfh",
+      "pui"
+    ],
+    "3": [],
+    "7": [
+      "RIH-FAM-KEY-TQ3V-C77K-SSE6-XFWW",
+      "RIM-FAM-KEY-U8Q5-F4GZ-T8JQ-ST38",
+      "RIE-FAM-KEY-PQ93-GMKL-JFYN-YAJJ",
+      "RIM-FAM-KEY-FXQR-3UV8-A2NH-GKXT",
+      "RI9-FAM-KEY-YK8H-H68N-LQE2-NJGE",
+      "RIG-FAM-KEY-BWUJ-N9VQ-HTGK-JFY7",
+      "RI3-FAM-KEY-439D-MUB8-6KY8-VFH6",
+      "RIJ-FAM-KEY-VU8D-XJTL-WU86-ECWN"
+    ],
+    "30": [
+      "RIS-FAM-KEY-SC3F-SH9G-XWEH-6VCF",
+      "RIZ-FAM-KEY-57VF-76GH-TWJZ-5S8M",
+      "RI8-FAM-KEY-4ZRS-J2UB-8SG3-S2K7",
+      "RIJ-FAM-KEY-GJT8-BQFC-A27Z-GBT6",
+      "RI6-FAM-KEY-Y3TN-U84H-3KWY-XUD4",
+      "RIW-FAM-KEY-YBW6-W7Y3-DDJP-Y7LP",
+      "RIE-FAM-KEY-ALG4-JFK3-LBLH-ENNM",
+      "RIY-FAM-KEY-XUSP-7Q52-XGMX-WE9L",
+      "LIB-KEY-AFCY-H2D6-TDGL-5P5H",
+      "LIB-KEY-8JFR-VBL5-74G3-LZWR",
+      "LIB-KEY-FLKP-R7BF-EZ3U-MF92",
+      "LIB-KEY-YRXU-RYYB-RPZ9-WZX8",
+      "LIB-KEY-NWY9-AD9W-DXQY-Z5TA",
+      "LIB-KEY-ZMYH-8S3X-WP99-YUQB",
+      "LIB-KEY-BDK4-H6TE-7NV9-N5JM",
+      "LIB-KEY-HNJC-JV25-37Q5-QT5W",
+      "LIB-KEY-FUUK-YEB7-6DM2-Z3ZS",
+      "LIB-KEY-UP5X-9BNM-G6N7-7B2M",
+      "LIB-KEY-N8XF-46ET-X5M7-QED4",
+      "LIB-KEY-RQJW-BEFH-3GN8-VNW2",
+      "LIB-KEY-FD2D-FQC6-L4WM-WL7J",
+      "LIB-KEY-M3AA-MR5N-ZQ26-5XSC",
+      "LIB-KEY-2VWL-UBMG-H88B-6Y66"
+    ]
+  },
+  "used_keys": [
+    {
+      "user_id": 768020734231969793,
+      "tier": 1,
+      "key": "xxx",
+      "note": "rixxy",
+      "timestamp": "2026-09-05T13:32:45.205690+00:00"
+    },
+    {
+      "user_id": 1190844956395446397,
+      "tier": 1,
+      "key": "rtrertergsd",
+      "note": "",
+      "timestamp": "2026-09-05T13:36:37.742866+00:00"
+    }
+  ],
+  "allowed_channels": [],
+  "log_channel": null,
+  "meta": {
+    "created_at": "2026-09-05T13:28:16.331878+00:00",
+    "last_local_backup": "2026-09-05T14:27:07.733191+00:00",
+    "last_remote_backup": null
+  }
+}
