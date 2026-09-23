@@ -5,7 +5,7 @@ users spend credits to redeem time-limited keys from a stock the owner
 maintains. Every redemption is logged and the whole database is backed up
 automatically.
 
-## What's included
+## What's included 
 
 | File | Purpose |
 |---|---|
