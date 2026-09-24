@@ -20,12 +20,8 @@ from datetime import datetime, timezone
 import discord
 from discord.ext import commands, tasks
 
-try:
-    from dotenv import load_dotenv
-    load_dotenv()  # reads a local .env file into the environment, if present
-except ImportError:
-    pass  # python-dotenv is optional; env vars can be set another way instead
-
+# The Discord token is read ONLY from the operating-system environment.
+# No .env file is loaded by this application.
 import config
 from storage import Storage, StorageError
 from views import TierSelectView, NoteModal, BulkKeysModal
@@ -511,7 +507,7 @@ async def help_cmd(ctx: commands.Context):
 def main():
     token = os.getenv("DISCORD_TOKEN")
     if not token:
-        logger.error("DISCORD_TOKEN environment variable is not set. See .env.example.")
+        logger.error("DISCORD_TOKEN environment variable is not set. Set it in the OS/Render environment variables.")
         sys.exit(1)
     if os.getenv("RENDER") or os.getenv("KEEP_ALIVE") == "1":
         keep_alive()
